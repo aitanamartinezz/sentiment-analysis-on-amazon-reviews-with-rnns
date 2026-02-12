@@ -1,4 +1,4 @@
-\# Sentiment Analysis on Amazon Reviews with RNNs
+# Sentiment Analysis on Amazon Reviews with RNNs
 
 
 
@@ -16,7 +16,7 @@ The work emphasizes model evaluation, comparison, and practical trade-offs rathe
 
 
 
-\## Problem Context
+## Problem Context
 
 
 
@@ -36,7 +36,7 @@ predicting the sentiment of a review based on its text.
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -46,13 +46,13 @@ The project uses a subset of the \*\*Amazon Reviews\*\* dataset, consisting of t
 
 Key characteristics:
 
-\- Textual, sequential data
+- Textual, sequential data
 
-\- Variable-length inputs
+- Variable-length inputs
 
-\- Binary sentiment labels
+- Binary sentiment labels
 
-\- Real-world noise and vocabulary diversity
+- Real-world noise and vocabulary diversity
 
 
 
@@ -64,7 +64,7 @@ Text preprocessing includes tokenization, sequence padding, and embedding-based 
 
 
 
-\## Methodology
+## Methodology
 
 
 
@@ -72,23 +72,23 @@ Several recurrent neural network architectures were implemented and compared:
 
 
 
-\- Simple RNN
+- Simple RNN
 
-\- LSTM
+- LSTM
 
-\- GRU
+- GRU
 
 
 
 The experimental setup focuses on:
 
-\- Sequence length selection
+- Sequence length selection
 
-\- Embedding dimensionality
+- Embedding dimensionality
 
-\- Batch size and training stability
+- Batch size and training stability
 
-\- Model capacity vs. generalization trade-offs
+- Model capacity vs. generalization trade-offs
 
 
 
@@ -100,27 +100,27 @@ All models were trained using the same preprocessing pipeline to ensure fair com
 
 
 
-\## Evaluation Strategy
+## Evaluation Strategy
 
 
 
 Model performance was evaluated using:
 
-\- Accuracy on validation and test sets
+- Accuracy on validation and test sets
 
-\- Training and validation loss curves
+- Training and validation loss curves
 
-\- Stability across epochs
+- Stability across epochs
 
 
 
 Special attention was paid to:
 
-\- Overfitting behavior
+- Overfitting behavior
 
-\- Convergence speed
+- Convergence speed
 
-\- Sensitivity to hyperparameters
+- Sensitivity to hyperparameters
 
 
 
@@ -132,7 +132,7 @@ This evaluation-oriented approach allows meaningful comparison between architect
 
 
 
-\## Results
+## Results
 
 
 
@@ -140,13 +140,13 @@ Key observations from the experiments:
 
 
 
-\- Gated architectures (LSTM and GRU) consistently outperformed Simple RNNs.
+- Gated architectures (LSTM and GRU) consistently outperformed Simple RNNs.
 
-\- GRU models achieved competitive accuracy with fewer parameters and faster convergence.
+- GRU models achieved competitive accuracy with fewer parameters and faster convergence.
 
-\- Increasing sequence length improved performance up to a point, after which gains diminished.
+- Increasing sequence length improved performance up to a point, after which gains diminished.
 
-\- Larger embeddings improved expressiveness but increased the risk of overfitting.
+- Larger embeddings improved expressiveness but increased the risk of overfitting.
 
 
 
@@ -158,7 +158,7 @@ Overall, the best-performing models achieved strong classification accuracy whil
 
 
 
-\## Conclusions
+## Conclusions
 
 
 
@@ -168,11 +168,11 @@ This project demonstrates the practical advantages of gated RNN architectures fo
 
 Beyond raw performance, the experiments highlight the importance of:
 
-\- Careful evaluation
+- Careful evaluation
 
-\- Controlled comparisons
+- Controlled comparisons
 
-\- Understanding trade-offs between model complexity and generalization
+- Understanding trade-offs between model complexity and generalization
 
 
 
@@ -184,7 +184,7 @@ The results reinforce why LSTM and GRU models remain strong baselines for sequen
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -206,17 +206,17 @@ sentiment-analysis-on-amazon-reviews-with-rnns/
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
-\- Python
+- Python
 
-\- TensorFlow / Keras
+- TensorFlow / Keras
 
-\- NumPy, Pandas
+- NumPy, Pandas
 
-\- Jupyter Notebooks
+- Jupyter Notebooks
 
 
 
@@ -224,7 +224,7 @@ sentiment-analysis-on-amazon-reviews-with-rnns/
 
 
 
-\## Author
+## Author
 
 
 
