@@ -190,13 +190,13 @@ The results reinforce why LSTM and GRU models remain strong baselines for sequen
 
 sentiment-analysis-on-amazon-reviews-with-rnns/
 
-├── notebooks/ # Experiments and analysis
+├── notebooks # Experiments and analysis
 
-├── src/ # Reusable model and training code
+├── src # Reusable model and training code
 
-├── results/ # Metrics, plots, and evaluation outputs
+├── results # Metrics, plots, and evaluation outputs
 
-├── docs/ # Additional documentation
+├── docs # Additional documentation
 
 └── README.md
 
